@@ -9,6 +9,7 @@ package com.mycompany.tugas_besar_mkepl;
  */
 public class Lingkaran extends Bentuk implements BangunDatar{
     private int jari_jari;
+    private double temp;
 
     public Lingkaran(String nama, int jari_jari) {
         super(nama);
