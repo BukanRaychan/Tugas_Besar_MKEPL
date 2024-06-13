@@ -10,7 +10,7 @@ package com.mycompany.tugas_besar_mkepl;
 public class Lingkaran extends Bentuk implements BangunDatar{
     private int jari_jari;
 
-    public Lingkaran(String nama, int jari_jari) {
+    public Lingkaran(String nama, int jari_jari) { 
         super(nama);
         this.jari_jari = jari_jari;
     }
